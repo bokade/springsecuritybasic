@@ -14,10 +14,12 @@ public class HomeController {
     @GetMapping("/user")
     public String userAPI() {
         return "Hello USER!";
+
     }
 
     @GetMapping("/admin")
     public String adminAPI() {
         return "Hello ADMIN!";
+
     }
 }
