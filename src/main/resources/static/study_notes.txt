@@ -213,3 +213,12 @@ Flow → Authentication ✅ → Authorization ✅ → Access granted
 Demo/test ke liye InMemoryUserDetailsManager use karo.
 
 Real project me DB-based users + BCryptPasswordEncoder use karna.
+
+
+Major Authentication Mechanisms in Spring Security:
+HTTP Basic : http.httpBasic();
+Form Login : http.formLogin();
+OAuth2 Login : http.oauth2Login();
+JWT Token Authentication : http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+LDAP Authentication : http.ldapAuthentication();
+API Key / Custom Token Authentication
