@@ -18,6 +18,11 @@
 		<license/>
 	</licenses>
 	<developers>
+		<developer>
+			<id>swapnil</id>
+			<name>Swapnil Bokade</name>
+			<email>swapnil@example.com</email>
+		</developer>
 		<developer/>
 	</developers>
 	<scm>
