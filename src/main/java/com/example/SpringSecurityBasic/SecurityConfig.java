@@ -32,6 +32,7 @@ public class SecurityConfig {
         return new InMemoryUserDetailsManager(user1, user2);
     }
 
+
     // 2. Authorize endpoints based on roles
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
