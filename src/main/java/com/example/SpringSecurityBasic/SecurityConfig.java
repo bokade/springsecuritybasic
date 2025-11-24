@@ -33,6 +33,7 @@ public class SecurityConfig {
     }
 
 
+
     // 2. Authorize endpoints based on roles
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
