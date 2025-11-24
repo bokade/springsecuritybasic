@@ -13,7 +13,6 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class SecurityConfig {
 
-
     // 1. Create multiple users with roles
     @Bean
     public UserDetailsService userDetailsService() {
